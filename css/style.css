@@ -1,0 +1,54 @@
+body{
+    
+}
+
+main{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    margin: auto;
+    color: whitesmoke;
+    font-family: 'Satisfy', cursive;
+    /* */
+}
+
+h1{
+    font-size: 50px;
+}
+.grid-1{
+    border: black;
+    background-color: #851e3e;
+    color: whitesmoke;
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    padding: 20px; 
+}
+
+.grid-2{
+    background-color:#651e3e;
+    grid-column: 1/-1;
+    grid-row: 2/3 ;
+    /* border-radius: 25px */
+    padding: 20px; 
+}
+.grid-3{
+    background-color: #451e3e;
+    grid-column: 1/-1;
+    grid-row: 3/4;
+    padding: 20px; 
+}
+
+.grid-4{
+    background-color: #251e3e;
+    grid-column: 1/-1;
+    grid-row: 4/5;
+    padding: 20px; 
+}
+
+.grid-5{
+    background-color: #051e3e;
+    grid-column: 1/-1;
+    grid-row: 5/6;
+    padding: 20px; 
+}
