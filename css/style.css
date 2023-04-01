@@ -9,13 +9,18 @@ main{
     width: 100%;
     margin: auto;
     color: whitesmoke;
-    font-family: 'Satisfy', cursive;
+    font-family:'Courgette', cursive;
     /* */
 }
 
 h1{
     font-size: 50px;
 }
+
+input{
+    accent-color: gray;
+}
+
 .grid-1{
     border: black;
     background-color: #851e3e;
